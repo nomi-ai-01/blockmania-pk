@@ -1423,7 +1423,7 @@ function pointerUp(event) {
     event.clientY >= rect.top &&
     event.clientY <= rect.bottom;
 
-  if (inside && current.target) {
+  if (current.target) {
     placePiece(
       current.piece,
       current.target.row,
